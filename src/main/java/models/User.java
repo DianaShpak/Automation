@@ -1,4 +1,4 @@
-package additional;
+package models;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.Date;
 
 
-public class User extends Record{
+public class User extends Record {
 
     private final static Logger LOG = LogManager.getLogger("Пользователь");
     private String username;
