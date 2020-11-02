@@ -21,7 +21,7 @@ public class Application {
     public static void main(String[] args) {
 
 
-        LOG.info("==begin==");
+        LOG.info("==start==");
 
 
 
@@ -94,7 +94,7 @@ public class Application {
 
 
         }
-        LOG.info("==end==");
+        LOG.info("==finish==");
     }
 
 }
