@@ -22,7 +22,7 @@ public class Application {
     public static void main(String[] args) {
 
 
-        LOG.info("==start==");
+        LOG.info("==begin==");
 
 
 
@@ -48,8 +48,8 @@ public class Application {
 
         Map<String, User> userMap = new HashMap<>();
 
-        User admin = new User("admin", "1234");
-        User businessA = new User("businessA", "123qweqwe");
+        User admin = new User("administrator", "1234");
+        User businessA = new User("business", "123qweqwe");
         User customer = new User("customer", "123qwe");
 
         User availableUser = new User();
@@ -77,7 +77,7 @@ public class Application {
 
             builder.append("Current user data: {")
                     .append("\n")
-                    .append("user id: ")
+                    .append("user's id: ")
                     .append(cycleUser.getId())
                     .append("\n")
                     .append("Hidden password: ")
@@ -95,7 +95,7 @@ public class Application {
 
 
         }
-        LOG.info("==finish==");
+        LOG.info("==end==");
     }
 
 }
