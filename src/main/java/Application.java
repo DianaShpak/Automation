@@ -21,9 +21,6 @@ public class Application {
     public static void main(String[] args) {
 
 
-        LOG.info("==begin==");
-
-
 
 /*
         for (int i = 0; i < 3; i++) {
@@ -94,7 +91,6 @@ public class Application {
 
 
         }
-        LOG.info("==end==");
     }
 
 }
