@@ -1,5 +1,4 @@
-import additional.User;
-import additional.UserStatus;
+import models.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 /*
